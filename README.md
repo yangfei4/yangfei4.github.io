@@ -6,6 +6,9 @@ Howdy, I am master student at the University of Illinois at Urbana-champaign. My
 * Focus: Instance segmentation and pose estimation for small, reflective, and symmetric USB components.
 * Trained Mask R-CNN using cutomized and augmented synthetic datasets and self-collected real datasets.
 * Developing a data labeling tool for real image based on Opencv and Pyrender with 25fps refresh rate.
+<p align="center">
+  <img src="https://github.com/yangfei4/Sim2real/blob/main/figures/labeling_GUI.jpg" alt="Labeling tool interface" width="500">
+</p>
 
 ## Software Project
 ### Chess Game in Java [Link]([https://github.com/yangfei4/Sim2real](https://github.com/yangfei4/ChessJava))
