@@ -7,6 +7,15 @@ Howdy, I am master student at the University of Illinois at Urbana-champaign. My
 * Trained Mask R-CNN using cutomized and augmented synthetic datasets and self-collected real datasets.
 * Developing a data labeling tool for real image based on Opencv and Pyrender with 25fps refresh rate.
 
+## Software Project
+### Chess Game in Java [Link]([https://github.com/yangfei4/Sim2real](https://github.com/yangfei4/ChessJava))
+* Developed a complete chess application using Java, showcasing strong object-oriented programming skills and proficiency in problem-solving.
+* Designed and implemented a robust unit testing framework, ensuring the reliability and correctness of the codebase.
+* Leveraged Apache Maven for efficient project management, simplifying dependency management and automating the build process.
+<p align="center">
+  <img src="https://github.com/yangfei4/ChessJava/blob/main/visuals/chess_demo.gif" width="400">
+</p>
+
 ## Engineering Project
 ### Robotics Engineer Intern 
 * Built a deicing robot prototype for transmission lines relying on STM32-based embedded system.
