@@ -1,1 +1,16 @@
 /* Your SCSS here. */
+.animation {
+    animation-name: slide-around;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+@keyframes slide-around {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100px);
+    }
+}
