@@ -14,8 +14,9 @@ function PositionListener() {
             const sectionHeight = section.clientHeight;
             const offset = 80; // offset to highlight the navbar item
 
-            // make the last section active
+            // If scroll to the bottom, make the last section active
             if (scrollPosition + window.innerHeight >= document.body.offsetHeight ) {
+                console.log("scroll to the bottom");
                 document.querySelectorAll(".navbar-item").forEach((item) => {
                     item.classList.remove("active");
                 });
