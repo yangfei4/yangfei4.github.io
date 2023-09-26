@@ -58,6 +58,8 @@
     width: 40%;
     height: 50%;
     object-fit: cover;
+    // shadow
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .carousel-slide {
     flex: 0 0 100%; /* Each slide takes up 100% width */
@@ -95,13 +97,13 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5); /* Add background color */
-    color: white; /* Set text color to white */
+    background-color: transparent;
+    color: $element-contrast-color;
     border: none;
-    font-size: 24px;
+    font-size: 40px;
     cursor: pointer;
-    padding: 10px 15px; /* Add padding for better visibility */
-    border-radius: 50%; /* Make buttons circular */
+    width: 40px;
+    height: 40px;
 }
 
 .prev-button {
@@ -114,8 +116,8 @@
 
 .prev-button:disabled,
 .next-button:disabled {
-    opacity: 0.5; /* Reduce opacity to indicate it's disabled */
-    cursor: not-allowed; /* Change cursor to 'not-allowed' */
-    pointer-events: none; /* Disable click events */
+    opacity: 0.5; // Reduce opacity to indicate it's disabled */
+    cursor: not-allowed; 
+    pointer-events: none; // Disable click events 
 }
 
