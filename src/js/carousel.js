@@ -2,7 +2,6 @@ const carouselContainer = document.querySelector('.carousel-container');
 const prevButton = document.querySelector('.prev-button');
 const nextButton = document.querySelector('.next-button');
 const num_slides = document.querySelectorAll('.carousel-slide').length;
-console.log("num_slides", num_slides);
 
 let currentIndex = 0;
 
