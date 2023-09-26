@@ -3,9 +3,10 @@
 #moments {
     display: block;
     width: 100%;
-    height: 80vh;
+    height: 800px;
     aspect-ratio: 16/9;
     background-color: $background-color;
+    margin-bottom: 100px;
 }
 /* Basic styling for a fixed background */
 .bg-container {
@@ -56,7 +57,7 @@
 /* Styling for individual carousel slides */
 .carousel-slide img, video{
     width: 40%;
-    height: 50%;
+    height:45%;
     object-fit: cover;
     // shadow
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
