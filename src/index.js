@@ -8,6 +8,13 @@ import './index.html';
 
 // Stylesheets
 import './css/main.scss';
+import './css/about.scss';
+import './css/projects.scss';
+import './css/moments.scss';
+import './css/contact.scss';
 
 // Scripts
 import './js/main.js';
+import './js/carousel.js';
+import './js/modal.js';
+import './js/positionIdicator.js';
