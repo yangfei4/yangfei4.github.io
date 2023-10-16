@@ -1,20 +1,11 @@
-/*
- * This is the main entry point for Webpack, the compiler & dependency loader.
- * All files that are necessary for your web page and need to be 'watched' for changes should be included here!
- */
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
 
-// HTML Files
-import './index.html';
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
-// Stylesheets
-import './css/main.scss';
-import './css/about.scss';
-import './css/projects.scss';
-import './css/moments.scss';
-import './css/contact.scss';
-
-// Scripts
-import './js/main.js';
-import './js/carousel.js';
-import './js/modal.js';
-import './js/positionIdicator.js';
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);

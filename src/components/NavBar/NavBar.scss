@@ -1,0 +1,62 @@
+@import '../../styles/variables.scss';
+
+header {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    height: 3%;
+    display: block;
+    padding: 1rem;
+    background-color: $element-color;
+    color: #fff;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+  }
+  header.active {
+    height: 5%;
+    transition: all 0.3s ease-in-out;
+  }
+  .header-title {
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    transition: all 0.3s ease-in-out;
+  }
+  header.active .header-title {
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+  }
+  nav {
+    margin-right: 5%;
+    font-size: $font-size;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 80%;
+    color: #ebeee0;
+    border-radius: 20px;
+    height: 1.2cm;
+  }
+  p{
+    margin-top: 0;
+  }
+  .pageContainer {
+    display: block;
+  }
+  .navbar-item {
+    text-decoration: none;
+    color: #ebeee0;
+    // color: #000000;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+  }
+  .navbar-item.active {
+    // background-color: #3fdac0; /* Change the background color as needed */
+    background-color: white; /* Change the background color as needed */
+    // color: $element-color;
+    color: black;
+  }
