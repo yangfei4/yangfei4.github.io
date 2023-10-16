@@ -11,8 +11,7 @@ module.exports = {
   },
   devServer: {
     open: true,
-    host: "localhost",
-    watchFiles: 'index.html',
+    host: "localhost" 
   },
   context: path.join(__dirname, 'src'),
   plugins: [
@@ -22,7 +21,7 @@ module.exports = {
       ],
     }),
     new HtmlWebpackPlugin({
-      template: "index.html",
+      template: path.resolve(__dirname, 'public/index.html'),
       inject: 'body',
     }),
   ],
@@ -46,4 +45,7 @@ module.exports = {
       },
     ],
   },
+  resolve: {
+    extensions: ['.js', '.jsx']
+  }
 };
