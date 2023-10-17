@@ -1,0 +1,139 @@
+@import "../../styles/variables.scss";
+
+#moments {
+    display: block;
+    width: 100%;
+    height: 900px;
+    aspect-ratio: 16/9;
+    background-color: $background-color;
+    margin-bottom: 50px;
+}
+/* Basic styling for a fixed background */
+.bg-container {
+    text-align: center;
+    z-index: 2;
+    display: inherit;
+    flex-direction: inherit;
+    background-image: url(https://gitlab.com/yangfei4/mp1/-/raw/master/src/assets/bg.jpeg?ref_type=heads);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 200%;
+    height: 200px;
+}
+.bg-container p{
+    color: whitesmoke;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.carousel-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 900px;
+    height: 900px;
+    .carousel-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        transition: transform 0.5s ease-in-out;
+        .carousel-slide {
+            flex: 0 0 100%; /* Each slide takes up 100% width */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .slide-container {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .slide-text {
+                    display: flex;
+                    flex-direction: row;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                }
+                h1{
+                    width: fit-content;
+                    padding: 10px 10px;
+                    margin: 0 15px 25px 15px;
+                    border-radius: 10px;
+                    color: $element-color;
+                    border-color: $element-color;
+                    border: 1px solid $element-color;
+                }
+            }
+            
+            img, video{
+                height: 400px;
+                // width: 100%;
+                object-fit: cover;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            }
+            }
+            .carousel-slide-hidden {
+                display: none;
+            }
+        }
+}
+
+
+.arrow{
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: $element-contrast-color;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    filter: drop-shadow(0px 0px 5px $element-color);
+    // when the button is pressed, make the color darker
+    &:active {
+        color: darken($element-contrast-color, 10%);
+    }
+}
+.arrow-left {
+    left: 10px;
+}
+.arrow-right {
+    right: 10px;
+}
+.indicators{
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.indicator{
+    height: 1rem;
+    width: 1rem;
+    background-color: white;
+    border-radius: 100%;
+    margin: 0 0.2rem;
+    border: 0.5px solid $element-color;
+    cursor: pointer;
+    outline: none;
+    margin: 0 0.3rem;
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.indicator:hover{
+    transform: scale(1.1);
+}
+.indicator.active{
+    background-color: $element-color;
+}

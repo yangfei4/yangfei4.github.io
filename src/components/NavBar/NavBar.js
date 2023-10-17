@@ -1,17 +1,20 @@
-import React from "react";
+import React, { useContext } from "react";
+
 import './NavBar.scss';
+import ActiveSectionContext from "../../context/activeSectionContext";
 
 const NavBar = () => {
+    const { activeSection, isTop } = useContext(ActiveSectionContext);
     return (
-        <header>
-            <div class="header-title">
+        <header className={isTop?"active":""}>
+            <div className="header-title">
                 <h2>YANGFEI PROFILE</h2>
             </div>
             <nav>
-                <a href="#about" class="navbar-item active">About</a>
-                <a href="#projects" class="navbar-item">Projects</a>
-                <a href="#moments" class="navbar-item">Moments</a>
-                <a href="#contact" class="navbar-item">Contact</a>
+                <a href="#about" className={`navbar-item ${activeSection === 'about' ? 'active' : ''}`}>About</a>
+                <a href="#projects" className={`navbar-item ${activeSection === 'projects' ? 'active' : ''}`}>Projects</a>
+                <a href="#moments" className={`navbar-item ${activeSection === 'moments' ? 'active' : ''}`}>Moments</a>
+                <a href="#contact" className={`navbar-item ${activeSection === 'contact' ? 'active' : ''}`}>Contact</a>
             </nav>
         </header>
     );

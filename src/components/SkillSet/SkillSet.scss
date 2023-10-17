@@ -8,6 +8,13 @@
     border-radius: 20px;
     // border: 2px solid $element-color;
     box-shadow: 0 20px 20px 0 rgba(233, 240, 243, 0.5);
+    .skill-set-titile{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+        font-family: Comic Sans MS, Comic Sans, cursive;
+    }
 }
 .skill-set{
     display: flex;
@@ -34,9 +41,8 @@
     display: block;
     width: 200px;
     flex-grow: 1;
-    // margin: 0 50px;
     padding: 0 50px;
-    border-right: 1px solid #E6ECF8;;
+    border-right: 1px solid #E6ECF8;
 }
 .skill-set-instance:last-child {
     border-right: none;

@@ -3,14 +3,15 @@ import "./SkillSet.scss";
 
 const SkillSet = () => {
     return (
-        <div class="skill-set-box">
-            <div class="skill-set">
-                <div class="skill-set-instance">
-                    <div class="skill-icon">
-                        <i class="fa fa-keyboard-o" aria-hidden="true"></i>
+        <div className="skill-set-box">
+            <h1 className="skill-set-titile">Skills</h1> 
+            <div className="skill-set">
+                <div className="skill-set-instance">
+                    <div className="skill-icon">
+                        <i className="fa fa-keyboard-o" aria-hidden="true"></i>
                     </div>
-                    <div class="skill-text">
-                        <h1 class="heading-3">Full-Stack Dev</h1>
+                    <div className="skill-text">
+                        <h1 className="heading-3">Full-Stack Dev</h1>
                         <ul>
                             <li>Java</li>
                             <li>JavaScript</li>
@@ -23,12 +24,12 @@ const SkillSet = () => {
                         </ul>
                     </div>
                 </div>
-                <div class="skill-set-instance">
-                    <div class="skill-icon">
-                        <i class="fa fa-rocket" aria-hidden="true"></i>
+                <div className="skill-set-instance">
+                    <div className="skill-icon">
+                        <i className="fa fa-rocket" aria-hidden="true"></i>
                     </div>
-                    <div class="skill-text">
-                        <h1 class="heading-3">Machine Learning</h1>
+                    <div className="skill-text">
+                        <h1 className="heading-3">Machine Learning</h1>
                         <ul>
                             <li>Python</li>
                             <li>PyTorch</li>
@@ -40,12 +41,12 @@ const SkillSet = () => {
                         </ul>
                     </div>
                 </div>
-                <div class="skill-set-instance">
-                    <div class="skill-icon">
-                        <i class="fa fa-cogs" aria-hidden="true"></i>
+                <div className="skill-set-instance">
+                    <div className="skill-icon">
+                        <i className="fa fa-cogs" aria-hidden="true"></i>
                     </div>
-                    <div class="skill-text">
-                        <h1 class="heading-3">Mechanical Engineering</h1>
+                    <div className="skill-text">
+                        <h1 className="heading-3">Mechanical Engineering</h1>
                         <ul>
                             <li>ROS</li>
                             <li>MATLAB</li>

@@ -1,0 +1,28 @@
+{
+    "slides": [
+        {
+            "type": "image",
+            "src": "./assets/pic1.jpg",
+            "alt": "pic1",
+            "keywords": ["Sunrise", "Masterpiece"]
+        },
+        {
+            "type": "video",
+            "src": "./assets/video1.mp4",
+            "alt": "video1",
+            "keywords": ["Disney", "Fireworks", "Magic"]
+        },
+        {
+            "type": "image",
+            "src": "./assets/pic3.jpg",
+            "alt": "pic3",
+            "keywords": ["Geyser", "Eruption"]
+        },
+        {
+            "type": "video",
+            "src": "./assets/video2.mp4",
+            "alt": "video2",
+            "keywords": ["Bison", "Yellowstone"]
+        }
+    ]
+}
