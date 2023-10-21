@@ -12,10 +12,13 @@ const Contact = () => {
                     Contact
                 </div>
                 <div className="box">
-                    <h2><a href="mailto:yangfei4@illinois.edu">Send me an email 💌</a></h2>
+                    <h2><a href="./assets/yangfei_resume.pdf" download>Download Resume <i className="fa fa-download" aria-hidden="true"></i></a></h2>
                 </div>
                 <div className="contact-container">
                     <div className="social-media">
+                        <div className="social-media-instance">
+                            <a href="mailto:yangfei4@illinois.edu"><i className="fa fa-envelope" aria-hidden="true"></i></a>
+                        </div>
                         <div className="social-media-instance">
                             <a href="https://github.com/yangfei4/"><i className="fa fa-github" aria-hidden="true"></i></a>
                         </div>
