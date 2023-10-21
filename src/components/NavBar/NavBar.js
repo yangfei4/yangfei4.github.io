@@ -8,7 +8,7 @@ const NavBar = () => {
     return (
         <header className={isTop?"active":""}>
             <div className="header-title">
-                <h2>YANGFEI PROFILE</h2>
+                <h2>YANGFEI PORTFOLIO</h2>
             </div>
             <nav>
                 <a href="#about" className={`navbar-item ${activeSection === 'about' ? 'active' : ''}`}>About</a>
