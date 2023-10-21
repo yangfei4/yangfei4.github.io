@@ -8,6 +8,7 @@ import Moments from './components/Moments/Moments';
 import Contact from './components/Contact';
 
 import momentsData from "./assets/momentsData.json";
+import projectData from "./assets/projectData.json";
 import ActiveSectionContext from './context/activeSectionContext';
 
 const App = () => {
@@ -57,7 +58,7 @@ const App = () => {
                 </div>
                 <div className="scroll-container">
                     <About />
-                    <Projects />
+                    <Projects data={projectData.projects}/>
                     <Moments data={momentsData.slides}/>
                     <Contact />
                 </div>
