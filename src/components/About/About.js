@@ -16,7 +16,7 @@ const About = () => {
                     {/* <span className="highlight-bg">I'm actively seeking a full-time position for Summer 2024.</span> */}
                 </div>
                 <div className="about-image">
-                    <img src="assets/self-intro.jpg" className="about-img"/>
+                    <img src="assets/self-intro.jpg" className="about-img" alt="selfish"/>
                 </div>
             </div>
         </section>
