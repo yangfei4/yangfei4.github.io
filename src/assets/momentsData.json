@@ -2,7 +2,7 @@
     "slides": [
         {
             "type": "image",
-            "src": "./assets/pic1.jpg",
+            "src": "https://github.com/yangfei4/yangfei4.github.io/blob/main/src/assets/pic1.jpg?raw=true",
             "alt": "pic1",
             "keywords": ["Sunrise", "Masterpiece"]
         },
@@ -14,7 +14,7 @@
         },
         {
             "type": "image",
-            "src": "./assets/pic3.jpg",
+            "src": "https://github.com/yangfei4/yangfei4.github.io/blob/8b9f342ea994cd40e23541d1753370b4cb7c09d5/src/assets/pic3.jpg?raw=true",
             "alt": "pic3",
             "keywords": ["Geyser", "Eruption"]
         },

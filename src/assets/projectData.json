@@ -2,7 +2,7 @@
     "projects": [
         {
             "title": "Full-Stack App | Social Media",
-            "image": "./assets/project1.jpg",
+            "image": "https://github.com/yangfei4/yangfei4.github.io/blob/main/src/assets/project1.jpg?raw=true",
             "alt": "project1",
             "techs": ["React", "redux", "JavaScript", "Node.js", "Express", "MongoDB", "Mongoose", "HTML", "CSS", "MVC", "RESTful API", "Jsonwebtoken", "bcryptjs"],
             "links": {
@@ -13,7 +13,7 @@
         },
         {
             "title": "React App | Movie Explorer",
-            "image": "./assets/project2.jpg",
+            "image": "https://github.com/yangfei4/yangfei4.github.io/blob/main/src/assets/project2.jpg?raw=true",
             "alt": "project2",
             "techs": ["React", "Typescript", "Axios", "JavaScript", "HTML", "SASS"],
             "links": {
@@ -24,7 +24,7 @@
         },
         {
             "title": "Full-Stack App | Interactive Trip Planning",
-            "image": "./assets/project3.jpg",
+            "image": "https://github.com/yangfei4/yangfei4.github.io/blob/main/src/assets/project3.jpg?raw=true",
             "alt": "project3",
             "techs": ["MySQL", "URL", "React", "Node.js", "Express", "HTML", "CSS"],
             "links": {
@@ -34,7 +34,7 @@
         },
         {
             "title": "Java App | Chess Game",
-            "image": "./assets/project4.jpg",
+            "image": "https://github.com/yangfei4/yangfei4.github.io/blob/main/src/assets/project4.jpg?raw=true",
             "alt": "project4",
             "techs": ["Java", "JUnit", "OOP", "AWT/Swing", "URL"],
             "links": {
