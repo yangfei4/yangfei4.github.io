@@ -1,4 +1,4 @@
-# Link to [Yangfei's Profile](https://yangfei4.github.io/)
+# Link to [Yangfei's Portfolio](https://yangfei4.github.io/)
 
 # Steps to update page content
 * update any file of `./src`
