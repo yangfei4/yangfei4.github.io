@@ -1,0 +1,72 @@
+@import "../../styles/variables.scss";
+$row-height: 150px;
+
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    .project-row{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: $row-height;
+        border: 0.5px solid rgb(210, 207, 207);
+        box-shadow: 1px 2px 10px 1px rgba(99, 98, 98, 0.5);
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+        overflow: hidden;
+        margin: 15px 0;
+        .project-image{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            aspect-ratio: 16/9;            
+            img{
+                height: calc($row-height - 5px);
+                opacity: 0.9;
+            }
+        }
+
+        .project-content{
+            display: flex;
+            flex-direction: column;
+            padding: 5px 10px;
+            flex-grow: 2;
+            position: relative;
+            .project-title{
+                padding: 0 5px;
+                font-size: 1.2rem;
+                font-weight: bold;
+                margin: 0;
+            }
+            .project-techs{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin-top: 10px;
+                .project-tech{
+                    margin: 2px 5px;
+                    padding: 5px;
+                    border-radius: 10px;
+                    border: 1px solid rgb(210, 207, 207);
+                    font-size: 0.7rem;
+                }
+            }
+            .project-links{
+                position: absolute;
+                bottom: 15px;
+                a{
+                    text-decoration: none;
+                    background-color: $element-color;
+                    color: white;
+                    font-size: small;
+                    margin: 0 5px;
+                    padding: 5px 10px;
+                    border-radius: 10px;
+                    border: 1px solid rgb(171, 169, 169);
+                }
+            }
+        }
+    }
+}
