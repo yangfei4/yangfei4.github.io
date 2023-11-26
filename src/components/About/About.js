@@ -9,11 +9,10 @@ const About = () => {
                     <h1 className="heading-4">Hey! 👋</h1>
                     <h1 className="heading-3">I'm Yangfei Dai</h1>
                     <p className="about-paragraph">
-                        I am a Master's MechSE student at the University of Illinois Urbana-Champaign. 
-                        Alongside my in-depth studies and hands-on experience in Web Development and Machine Learning, 
-                        I've cultivated a keen interest in full-stack development.
+                        I am a Master's MechSE student at University of Illinos Urbana-Champaign, 
+                        specializing in software development(full-stack) within a diverse background encompassing machine learning and robotics.
+                        I'm actively seeking a full-time <b>Software Development Engineer</b> (SDE) position for Summer 2024.
                     </p>
-                    {/* <span className="highlight-bg">I'm actively seeking a full-time position for Summer 2024.</span> */}
                 </div>
                 <div className="about-image">
                     <img src="assets/self-intro.jpg" className="about-img" alt="selfish"/>
