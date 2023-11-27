@@ -67,7 +67,7 @@
         },
         {
             "title": "Automated Synthetic Images Generation",
-            "image": "https://github.com/yangfei4/Sim2real/blob/main/figures/synthetic.jpg",
+            "image": "https://github.com/yangfei4/yangfei4.github.io/blob/main/src/assets/ml3.jpg?raw=true",
             "alt": "project3",
             "techs": ["Python", "BlenderProc2", "Photorealistic Rendering", "COCO annotations", "CAD models"],
             "links": {
@@ -79,7 +79,7 @@
     "robotics": [
         {
             "title": "Automated Assembly Pipeline in ROS",
-            "image": "https://github.com/yangfei4/Sim2real/blob/main/figures/robots.jpg",
+            "image": "https://github.com/yangfei4/yangfei4.github.io/blob/main/src/assets/robot1.jpg?raw=true",
             "alt": "project1",
             "techs": ["ROS", "Python", "URDF", "MoveIt!", "Docker", "UR5e", "Motion Planning"],
             "links": {
@@ -89,7 +89,7 @@
         },
         {
             "title": "De-icing Robot Prototype",
-            "image": "https://github.com/yangfei4/Sim2real/blob/main/figures/deicing_robot.jpg",
+            "image": "https://github.com/yangfei4/yangfei4.github.io/blob/main/src/assets/robot2.jpg?raw=true",
             "alt": "project2",
             "techs": ["C language", "STM32", "Motor Control", "Solidworks", "3D Printing", "Modeling"],
             "links": {
@@ -99,7 +99,7 @@
         },
         {
             "title": "Hardware Design Portfolio",
-            "image": "https://github.com/yangfei4/Sim2real/blob/main/figures/cnc_machine.PNG",
+            "image": "https://github.com/yangfei4/yangfei4.github.io/blob/main/src/assets/robot3.jpg?raw=true",
             "alt": "project3",
             "techs": ["Mechenical Design", "Modeling"],
             "links": {
