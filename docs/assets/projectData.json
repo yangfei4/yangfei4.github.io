@@ -3,7 +3,7 @@
         "software": [
             {
                 "title": "Full-Stack App | Social Media",
-                "image": "https://github.com/yangfei4/yangfei4.github.io/blob/main/src/assets/project1.jpg?raw=true",
+                "image": "https://i.ibb.co/XbSG1Ss/project1.jpg",
                 "alt": "project1",
                 "techs": ["React", "redux", "JavaScript", "Node.js", "Express", "MongoDB", "Mongoose", "HTML", "CSS", "MVC", "RESTful API", "Jsonwebtoken", "bcryptjs"],
                 "links": {
@@ -14,7 +14,7 @@
             },
             {
                 "title": "React App | Movie Explorer",
-                "image": "https://github.com/yangfei4/yangfei4.github.io/blob/main/src/assets/project2.jpg?raw=true",
+                "image": "https://i.ibb.co/3zhLXsQ/project2.jpg",
                 "alt": "project2",
                 "techs": ["React", "Typescript", "Axios", "JavaScript", "HTML", "SASS"],
                 "links": {
@@ -25,7 +25,7 @@
             },
             {
                 "title": "Full-Stack App | Interactive Trip Planning",
-                "image": "https://github.com/yangfei4/yangfei4.github.io/blob/main/src/assets/project3.jpg?raw=true",
+                "image": "https://i.ibb.co/YPcQrBK/project3.jpg",
                 "alt": "project3",
                 "techs": ["MySQL", "URL", "React", "Node.js", "Express", "HTML", "CSS"],
                 "links": {
@@ -35,7 +35,7 @@
             },
             {
                 "title": "Java App | Chess Game",
-                "image": "https://github.com/yangfei4/yangfei4.github.io/blob/main/src/assets/project4.jpg?raw=true",
+                "image": "https://i.ibb.co/7nrN230/project4.jpg",
                 "alt": "project4",
                 "techs": ["Java", "JUnit", "OOP", "AWT/Swing", "URL"],
                 "links": {
@@ -47,7 +47,7 @@
     "machineLearning": [
         {
             "title": "Object Detection for Custom Objects",
-            "image": "https://github.com/yangfei4/yangfei4.github.io/blob/main/src/assets/ml1.jpg?raw=true",
+            "image": "https://i.ibb.co/bQQ9Y4J/ml1.jpg",
             "alt": "project1",
             "techs": ["Python", "Deep Learning", "Pytorch", "Mask R-CNN", "Detectron2", "CUDA", "Opencv", "Matplotlib"],
             "links": {
@@ -57,7 +57,7 @@
         },
         {
             "title": "Pose Estimation for Sub-centimeter Parts",
-            "image": "https://github.com/yangfei4/yangfei4.github.io/blob/main/src/assets/ml2.jpg?raw=true",
+            "image": "https://i.ibb.co/K953Rg3/ml2.jpg",
             "alt": "project2",
             "techs": ["Python", "Voting Network", "Docker", "RANSAC algorithm", "PnP"],
             "links": {
@@ -67,7 +67,7 @@
         },
         {
             "title": "Automated Synthetic Images Generation",
-            "image": "https://github.com/yangfei4/yangfei4.github.io/blob/main/src/assets/ml3.jpg?raw=true",
+            "image": "https://i.ibb.co/MCSqvVs/ml3.jpg",
             "alt": "project3",
             "techs": ["Python", "BlenderProc2", "Photorealistic Rendering", "COCO annotations", "CAD models"],
             "links": {
@@ -79,7 +79,7 @@
     "robotics": [
         {
             "title": "Automated Assembly Pipeline in ROS",
-            "image": "https://github.com/yangfei4/yangfei4.github.io/blob/main/src/assets/robot1.jpg?raw=true",
+            "image": "https://i.ibb.co/PCC4j29/robot1.jpg",
             "alt": "project1",
             "techs": ["ROS", "Python", "URDF", "MoveIt!", "Docker", "UR5e", "Motion Planning"],
             "links": {
@@ -89,7 +89,7 @@
         },
         {
             "title": "De-icing Robot Prototype",
-            "image": "https://github.com/yangfei4/yangfei4.github.io/blob/main/src/assets/robot2.jpg?raw=true",
+            "image": "https://i.ibb.co/sv4GJnL/robot2.jpg",
             "alt": "project2",
             "techs": ["C language", "STM32", "Motor Control", "Solidworks", "3D Printing", "Modeling"],
             "links": {
@@ -99,7 +99,7 @@
         },
         {
             "title": "Hardware Design Portfolio",
-            "image": "https://github.com/yangfei4/yangfei4.github.io/blob/main/src/assets/robot3.jpg?raw=true",
+            "image": "https://i.ibb.co/wYQFMPD/robot3.jpg",
             "alt": "project3",
             "techs": ["Mechenical Design", "Modeling"],
             "links": {
