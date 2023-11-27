@@ -18,7 +18,7 @@ const Projects = ({data}) => {
                 <div className="category-selector">
                     <div className={`category ${currentCategory === "software" ? "active" : ""}`} onClick={() => setCurrentCategory("software")}>Software Development</div>
                     <div className={`category ${currentCategory === "machineLearning" ? "active" : ""}`} onClick={() => setCurrentCategory("machineLearning")}>Machine Learning</div>
-                    <div className={`category ${currentCategory === "robotics" ? "active" : ""}`} onClick={() => setCurrentCategory("robotics")}>Robotics Hardware</div>
+                    <div className={`category ${currentCategory === "robotics" ? "active" : ""}`} onClick={() => setCurrentCategory("robotics")}>Robotics & Hardware Design</div>
                 </div>
                 <ProjectContainer data={data[currentCategory]} />
                 <SkillSet />

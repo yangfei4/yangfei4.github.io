@@ -18,6 +18,7 @@ const ProjectContainer = ({ data }) => {
                         <span className="project-tech" key={index}>{tech}</span>
                     ))}</div>
                     <div className="project-links">
+                        {(project.links.live || project.links.demo) && (
                         <a href={project.links.live ? project.links.live : project.links.demo} target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-external-link" aria-hidden="true"></i>
                             {project.links.live ? (
@@ -25,11 +26,13 @@ const ProjectContainer = ({ data }) => {
                             ) : (
                                 <span>&nbsp; Demo</span>
                             )}
-                        </a>
-                        <a href={project.links.github} target="_blank" rel="noopener noreferrer">
+                        </a>)}
+                        
+                        {project.links.github && (<a href={project.links.github} target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-github" aria-hidden="true"></i>
                             &nbsp; Source Code
-                        </a>
+                        </a>)}
+
                     </div>
                 </div>
             </div>
