@@ -57,7 +57,7 @@
         },
         {
             "title": "Pose Estimation for Sub-centimeter Parts",
-            "image": "https://github.com/yangfei4/Sim2real/blob/main/figures/pose_esitimation.jpg",
+            "image": "https://github.com/yangfei4/yangfei4.github.io/blob/main/src/assets/ml2.jpg?raw=true",
             "alt": "project2",
             "techs": ["Python", "Voting Network", "Docker", "RANSAC algorithm", "PnP"],
             "links": {
