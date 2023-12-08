@@ -2,8 +2,18 @@
     "projects": {
         "software": [
             {
+                "title": "Backend App | Timesheet Management",
+                "image": "https://res.cloudinary.com/dhczvji7g/image/upload/v1702064577/portfolio/ein4qco0v7rpbpbajh2z.jpg",
+                "alt": "timesheet",
+                "techs": ["Java 8", "Maven", "Spring Boot", "Microservice", "Netflix Eureka", "RESTful web service", "AWS S3", "Amazon RDS", "React", "Reducer", "Redux"],
+                "links": {
+                    "github": "https://github.com/yangfei4/timesheet-backend"
+                },
+                "description": "The Timesheet Management App is designed to simplify and streamline the process of time tracking for both employees and HR managers. It offers a user-friendly interface for viewing, editing, and submitting timesheets, allowing users to customize entries and navigate effortlessly through their work hours."
+            },
+            {
                 "title": "Full-Stack App | Social Media",
-                "image": "https://i.ibb.co/XbSG1Ss/project1.jpg",
+                "image": "https://res.cloudinary.com/dhczvji7g/image/upload/v1702064960/portfolio/x3usyrg0njo6uuqdtcrm.jpg",
                 "alt": "project1",
                 "techs": ["React", "redux", "JavaScript", "Node.js", "Express", "MongoDB", "Mongoose", "HTML", "CSS", "MVC", "RESTful API", "Jsonwebtoken", "bcryptjs"],
                 "links": {
@@ -13,8 +23,8 @@
                 "description": "A full-stack social media app that allows users to post interesting events that happened in their lives."
             },
             {
-                "title": "React App | Movie Explorer",
-                "image": "https://i.ibb.co/3zhLXsQ/project2.jpg",
+                "title": "Frontend-React App | Movie Explorer",
+                "image": "https://res.cloudinary.com/dhczvji7g/image/upload/v1702064960/portfolio/skt3wxoiyuplywvth3ee.jpg",
                 "alt": "project2",
                 "techs": ["React", "Typescript", "Axios", "JavaScript", "HTML", "SASS"],
                 "links": {
@@ -25,29 +35,19 @@
             },
             {
                 "title": "Full-Stack App | Interactive Trip Planning",
-                "image": "https://i.ibb.co/YPcQrBK/project3.jpg",
+                "image": "https://res.cloudinary.com/dhczvji7g/image/upload/v1702064960/portfolio/fjdhxrih9oyiptwisl14.jpg",
                 "alt": "project3",
                 "techs": ["MySQL", "URL", "React", "Node.js", "Express", "HTML", "CSS"],
                 "links": {
                     "github": "https://github.com/yangfei4/TripExpert",
                     "demo": "https://drive.google.com/file/d/1-fcdePgbXqwvOv90iU721bA-VMEyztZ9/view"
                 }
-            },
-            {
-                "title": "Java App | Chess Game",
-                "image": "https://i.ibb.co/7nrN230/project4.jpg",
-                "alt": "project4",
-                "techs": ["Java", "JUnit", "OOP", "AWT/Swing", "URL"],
-                "links": {
-                    "github": "https://github.com/yangfei4/ChessJava",
-                    "demo": "https://github.com/yangfei4/ChessJava/blob/main/visuals/chess_demo.gif"
-                }
             }
         ],
     "machineLearning": [
         {
             "title": "Object Detection for Custom Objects",
-            "image": "https://i.ibb.co/bQQ9Y4J/ml1.jpg",
+            "image": "https://res.cloudinary.com/dhczvji7g/image/upload/v1702065045/portfolio/urrrmywxohflpyy0yaaf.jpg",
             "alt": "project1",
             "techs": ["Python", "Deep Learning", "Pytorch", "Mask R-CNN", "Detectron2", "CUDA", "Opencv", "Matplotlib"],
             "links": {
@@ -57,7 +57,7 @@
         },
         {
             "title": "Pose Estimation for Sub-centimeter Parts",
-            "image": "https://i.ibb.co/K953Rg3/ml2.jpg",
+            "image": "https://res.cloudinary.com/dhczvji7g/image/upload/v1702065045/portfolio/rxslbbrpaocgtarf96bk.jpg",
             "alt": "project2",
             "techs": ["Python", "Voting Network", "Docker", "RANSAC algorithm", "PnP"],
             "links": {
@@ -67,7 +67,7 @@
         },
         {
             "title": "Automated Synthetic Images Generation",
-            "image": "https://i.ibb.co/MCSqvVs/ml3.jpg",
+            "image": "https://res.cloudinary.com/dhczvji7g/image/upload/v1702065045/portfolio/gfx4l5dpzf4ayuszoj1i.jpg",
             "alt": "project3",
             "techs": ["Python", "BlenderProc2", "Photorealistic Rendering", "COCO annotations", "CAD models"],
             "links": {
@@ -79,7 +79,7 @@
     "robotics": [
         {
             "title": "Automated Assembly Pipeline in ROS",
-            "image": "https://i.ibb.co/PCC4j29/robot1.jpg",
+            "image": "https://res.cloudinary.com/dhczvji7g/image/upload/v1702065103/portfolio/uczfh31gei5v43ydiple.jpg",
             "alt": "project1",
             "techs": ["ROS", "Python", "URDF", "MoveIt!", "Docker", "UR5e", "Motion Planning"],
             "links": {
@@ -89,7 +89,7 @@
         },
         {
             "title": "De-icing Robot Prototype",
-            "image": "https://i.ibb.co/sv4GJnL/robot2.jpg",
+            "image": "https://res.cloudinary.com/dhczvji7g/image/upload/v1702065103/portfolio/atfflpsxi0fxfp4i48bq.jpg",
             "alt": "project2",
             "techs": ["C language", "STM32", "Motor Control", "Solidworks", "3D Printing", "Modeling"],
             "links": {
@@ -99,7 +99,7 @@
         },
         {
             "title": "Hardware Design Portfolio",
-            "image": "https://i.ibb.co/wYQFMPD/robot3.jpg",
+            "image": "https://res.cloudinary.com/dhczvji7g/image/upload/v1702065103/portfolio/kubxk0veh4w3lzcnxzmu.jpg",
             "alt": "project3",
             "techs": ["Mechenical Design", "Modeling"],
             "links": {
