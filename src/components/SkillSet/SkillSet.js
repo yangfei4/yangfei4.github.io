@@ -13,13 +13,14 @@ const SkillSet = () => {
                     <div className="skill-text">
                         <h1 className="heading-3">Full-Stack Dev</h1>
                         <ul>
-                            <li>Java</li>
+                            <li>Java 8</li>
+                            <li>Spring Boot</li>
+                            <li>Maven</li>
                             <li>JavaScript</li>
                             <li>TypeScript</li>
                             <li>HTML & CSS</li>
                             <li>React</li>
                             <li>Node.js</li>
-                            <li>Express</li>
                             <li>MySQL & NoSQL</li>
                         </ul>
                     </div>
