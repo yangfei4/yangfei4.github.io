@@ -2,6 +2,18 @@
     "slides": [
         {
             "type": "image",
+            "src": "https://res.cloudinary.com/dhczvji7g/image/upload/v1703724473/glacier_zbl008.jpg",
+            "alt": "glacier",
+            "keywords": ["Matanuska Glacier", "Alaska"]
+        },
+        {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dhczvji7g/image/upload/v1703723786/IMG_3280_iie1fg.jpg",
+            "alt": "northern light",
+            "keywords": ["Northern Lights", "Fairbanks", "Aurora"]
+        },
+        {
+            "type": "image",
             "src": "https://res.cloudinary.com/dhczvji7g/image/upload/v1702065305/portfolio/ynmadzqfvx0unowipwa8.jpg",
             "alt": "pic1",
             "keywords": ["Sunrise", "Masterpiece"]
