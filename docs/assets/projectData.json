@@ -5,7 +5,7 @@
                 "title": "Backend App | Timesheet Management",
                 "image": "https://res.cloudinary.com/dhczvji7g/image/upload/v1702064577/portfolio/ein4qco0v7rpbpbajh2z.jpg",
                 "alt": "timesheet",
-                "techs": ["Java 8", "Maven", "Spring Boot", "Microservice", "Netflix Eureka", "RESTful web service", "AWS S3", "Amazon RDS", "React", "Reducer", "Redux"],
+                "techs": ["Java 8", "Maven", "Spring Boot", "Spring Security", "Microservice", "Netflix Eureka", "Netflix Feign","RESTful web service", "AWS S3", "Amazon RDS", "React", "Reducer", "Redux"],
                 "links": {
                     "github": "https://github.com/yangfei4/timesheet-backend"
                 },
