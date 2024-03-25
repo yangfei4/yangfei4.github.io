@@ -3,12 +3,10 @@ import React from "react";
 import "./ProjectContainer.scss";
 
 const ProjectContainer = ({ data }) => {
-    console.log("I'm in ProjectContainer.js")
-    console.log(data);
     return(
     <div className="projects-container">
         {data.map((project, index) =>(
-            <div className="project-row">
+            <div className="project-row" key={index}>
                 <div className="project-image">
                     <img src={project.image} alt={project.title} />
                 </div>
